@@ -18,6 +18,14 @@ public class Animals_db {
         return null;
     }
 
+    public static void add_animal (Animal animal){
+        animals.add(animal);
+    }
+
+    public static void delete_animal (Animal animal){
+        animals.remove(animal);
+    }
+
 
 
 }

@@ -1,2 +1,2 @@
 # Zoo_benefactors
-Zoo oriented project. Make the life of animals easier!
+Zoo oriented project. Let's make the life of animals easier!

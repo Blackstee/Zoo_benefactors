@@ -19,4 +19,12 @@ public class Needs_db {
         return null;
     }
 
+    public static void add_need (Need need){
+        needs.add(need);
+    }
+
+    public static void delete_animal (Need need){
+        needs.remove(need);
+    }
+
 }
