@@ -1,10 +1,13 @@
 package com.company;
 
+
+import java.util.Random;
 /**
  * Created by blackstee on 10.04.18.
  */
 public class Animal {
 
+    private int id;
     public String name;
     public String type;
     public int age;
@@ -17,11 +20,16 @@ public class Animal {
         this.age = age;
         this.account = 0;
         this.aver_needed_acc = 2000;
+        this.id = new Random().nextInt(100);
 
     }
 
     public String get_name(){
         return name;
+    }
+
+    public int get_id(){
+        return id;
     }
 
     public String get_type(){

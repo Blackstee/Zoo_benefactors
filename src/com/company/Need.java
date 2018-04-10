@@ -1,9 +1,11 @@
 package com.company;
 
+import java.util.Random;
 /**
  * Created by blackstee on 10.04.18.
  */
 public class Need {
+    private int id;
     public String name;
     public String type;
     public int amount;
@@ -15,11 +17,16 @@ public class Need {
         this.type = type;
         this.amount = amount;
         this.price = price;
+        this.id = new Random().nextInt(100);
 
     }
 
     public String get_name(){
         return name;
+    }
+
+    public int get_id(){
+        return id;
     }
 
     public String get_type(){
