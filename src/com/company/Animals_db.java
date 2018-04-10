@@ -26,6 +26,15 @@ public class Animals_db {
         animals.remove(animal);
     }
 
+    public void print_all_animals (){
+        int i = 0;
+        do
+            {
+                System.out.println(animals.get(i).get_all_info());
+                i++;
+        } while (i < animals.size());
+    }
+
 
 
 }
